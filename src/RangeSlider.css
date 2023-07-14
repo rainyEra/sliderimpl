@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  width: 450px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.slider label {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+}
+.track {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.thumb {
+  position: absolute;
+  top: -5px;
+  width: 28px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.thumb-min {
+  left: 0;
+}
+
+.thumb-max {
+  left: 100%;
+  transform: translateX(-100%);
+}
